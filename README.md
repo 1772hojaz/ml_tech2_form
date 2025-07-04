@@ -7,20 +7,20 @@ This project discovers hidden patterns in unlabeled audio data using machine lea
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
-- 🎯 **4 distinct sound clusters** identified using **K-Means**
-- 🔍 **t-SNE visualization** revealed clear separations invisible in raw data
-- ⚖️ **K-Means outperformed DBSCAN**  
+-  **4 distinct sound clusters** identified using **K-Means**
+-  **t-SNE visualization** revealed clear separations invisible in raw data
+-  **K-Means outperformed DBSCAN**  
   *(Silhouette: 0.227 vs -0.326)*
-- 🧩 **Dimensionality reduction** was crucial for pattern discovery
-- 🔊 Audio features exhibit **spherical cluster tendencies**
+-  **Dimensionality reduction** was crucial for pattern discovery
+   Audio features exhibit **spherical cluster tendencies**
 
 ---
 
 ## 🛠 Methodology
 
-### 📊 Feature Engineering Pipeline
+###  Feature Engineering Pipeline
 
 1. **Audio Processing**: Load `.wav` files using **Librosa**
 2. **Mel Spectrogram**: Convert audio into 64-band frequency representations
@@ -29,7 +29,7 @@ This project discovers hidden patterns in unlabeled audio data using machine lea
 
 ---
 
-### 🔽 Dimensionality Reduction
+### Dimensionality Reduction
 
 | Technique | Components | Key Benefit                  | Limitations                 |
 |----------|------------|------------------------------|-----------------------------|
@@ -38,7 +38,7 @@ This project discovers hidden patterns in unlabeled audio data using machine lea
 
 ---
 
-### 🔗 Clustering Algorithms
+###  Clustering Algorithms
 
 | Algorithm | Parameters              | Best For                             |
 |----------|-------------------------|--------------------------------------|
@@ -47,7 +47,7 @@ This project discovers hidden patterns in unlabeled audio data using machine lea
 
 ---
 
-## 📏 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Silhouette Score** (range -1 to 1): Measures cluster separation
 - **Davies-Bouldin Index** (lower = better): Assesses cluster compactness
@@ -56,7 +56,7 @@ This project discovers hidden patterns in unlabeled audio data using machine lea
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Performance Comparison
 
